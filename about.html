@@ -34,16 +34,24 @@ body {font-family: "Lato", sans-serif}
 }
 </style>
 <body class="">
+<script type="text/javascript" src="code/core_code.js"></script>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">
-        <img src="images/Explor-logo-1.png" width="60"/>
-    </a>
-    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
-    <a href="music.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
-  </div>
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">
+            <img src="images/Explor-logo-1.png" width="60"/>
+        </a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+        <a href="music.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
+    </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="music.html" class="w3-bar-item w3-button w3-padding-large">Music</a>
 </div>
 
 <!-- main body of content -->
