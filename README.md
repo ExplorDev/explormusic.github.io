@@ -1,2 +1,2 @@
-# explormusic.github.io
+# Explor Music Website
 The Official Explor Music Website
